@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: #93d9e9;
+    font-family: arial;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+
+.primeraParte{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.cabecera1{
+    padding: 40px 100px;
+    background: salmon;
+}
+
+.texto{
+    background: white;
+    height: 400px;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: -40px;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    background-color: #8d8a8a ;
+    align-self: center;
+    width: 50%;
+}
